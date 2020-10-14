@@ -578,7 +578,7 @@ resource "aws_default_network_acl" "this" {
   )
 
   #lifecycle {
-  $  ignore_changes = [subnet_ids]
+  #  ignore_changes = [subnet_ids]
   #}
 }
 
